@@ -14,9 +14,34 @@ public class Disciplina {
     private String codigo;
     private String periodo;
     //////////////////////////
-    public Disciplina(){
-        
+    public Disciplina(String n, String c, String p){
+        setNome(n);
+        setCodigo(c);
+        setPeriodo(p);
     }
     //////////////////////////
+    public String getNome(){
+        return this.nome;
+    }
     
+    public String getCodigo(){
+        return this.codigo;
+    }
+    
+    public String getPeriodo(){
+        return this.periodo;
+    }
+    //////////////////////////
+    public void setNome(String n){
+        this.nome = n;
+    }
+    
+    public void setCodigo(String c){
+        this.codigo = c;
+    }
+    
+    public void setPeriodo(String p){
+        this.periodo = p;
+    }
+    //////////////////////////
 }
