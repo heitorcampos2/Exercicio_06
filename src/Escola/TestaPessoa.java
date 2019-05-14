@@ -12,7 +12,7 @@ package Escola;
 public class TestaPessoa {
         public static void main(String[] args){
         
-        Pessoa a1 = new Pessoa("","","");
+        Pessoa a1 = new Pessoa("Fulano","Rua Um dois","(38) 9 9999-9999");
         //a1.setNome("Larissa");
         //a1.setMatricula("007");
         
