@@ -10,5 +10,12 @@ package Escola;
  * @author ifnmg
  */
 public class TestaDisciplina {
-    
+    public static void main(String[] args){
+        
+        Disciplina d1 = new Disciplina("Filosofia","002","3°");
+        
+        System.out.println("Disciplina: "+d1.getNome());
+        System.out.println("Disciplina: "+d1.getCodigo());
+        System.out.println("Disciplina: "+d1.getPeriodo());
+    }
 }
